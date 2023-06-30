@@ -1,0 +1,38 @@
+version: '3.4'
+
+networks:
+  sa-network:
+    name: sa-network
+
+services:
+  webapi:
+    image: ${DOCKER_REGISTRY-}webapi
+    build:
+      context: .
+      dockerfile: Najson_Nervi_Topolansky_ReviewService/Dockerfile
+    restart: always
+    ports:
+      - "5007:80"
+    depends_on:
+      - db
+    networks:
+        - sa-network
+
+  db:
+    platform: linux/x86_64
+    image: mysql:5.7
+    restart: always
+    environment:
+        MYSQL_DATABASE: 'review'
+        MYSQL_ROOT_PASSWORD: 'root12345'
+    ports:
+        - '3306:3306'
+    expose:
+        - '3306'
+    volumes:
+        - my-db:/var/lib/mysql
+    networks:
+        - sa-network
+
+volumes:
+  my-db:

@@ -1,0 +1,12 @@
+  <-- POST /auth/login 
+  --> POST /auth/login 401 69ms 20b 
+  <-- POST /auth/registration 
+  --> POST /auth/registration 500 34ms 13b 
+  <-- POST /auth/registration 
+  --> POST /auth/registration 500 47ms 13b 
+  <-- POST /auth/login 
+  --> POST /auth/login 401 59ms 20b 
+  <-- POST /auth/login 
+  --> POST /auth/login 401 11ms 20b 
+  <-- POST /auth/login 
+  --> POST /auth/login 401 45ms 20b 

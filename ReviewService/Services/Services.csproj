@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServicesInterface\ServicesInterface.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\RepositoryInterface\RepositoryInterface.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="System.Net.Http.Formatting.Extension" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Formatting.Extension" Version="5.2.3" />
+  </ItemGroup>
+</Project>

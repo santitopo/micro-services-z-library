@@ -1,0 +1,14 @@
+{
+  "name": "zlibrarysdk",
+  "version": "1.0.5",
+  "description": "A package to interact with the external api of ZLibrary through an organization's APIKey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Najson Topolansky Nervi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

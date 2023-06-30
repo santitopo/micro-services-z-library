@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArqSoftPractica/Najson_Nervi_Topolansky_Api_Gateway.git"
+  },
+  "author": "Najson - Nervi - Topolansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArqSoftPractica/Najson_Nervi_Topolansky_Api_Gateway/issues"
+  },
+  "homepage": "https://github.com/ArqSoftPractica/Najson_Nervi_Topolansky_Api_Gateway#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0"
+  }
+}
