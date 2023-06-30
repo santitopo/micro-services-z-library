@@ -38,12 +38,8 @@ Project done using:
 <img width="400" alt="image" src="https://github.com/santitopo/micro-services-z-library/assets/43559181/30255222-43f3-4306-8c8a-3628aacd2569">  
 </br><img width="285" alt="image" src="https://github.com/santitopo/micro-services-z-library/assets/43559181/6e6f489f-4a6f-4e49-8d8a-4c3e76d31bfc">  
 
-
-
-
 ## Architecture
 <img width="300" alt="image" src="https://github.com/santitopo/micro-services-z-library/assets/43559181/8ef8aaf1-ace1-4183-b639-3041877395da">  
-
 
 <img width="300" alt="image" src="https://github.com/santitopo/micro-services-z-library/assets/43559181/fc67645a-afc7-4e79-b14e-074ca16f9fc3">
 
@@ -58,3 +54,4 @@ Project done using:
 
 
 Submitted during the course Software Architecture in Practice
+[Demo (Spanish version)](https://www.youtube.com/watch?v=D5xyhjq49uI)
