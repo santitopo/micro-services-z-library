@@ -26,7 +26,8 @@ Project done using:
 ## Main Challenges
 - Proper separation of concerns between services
 - Data consistency in cases when one service was down
-- De-centralized authorization checking (via role-checking with JWTs)
+- Centralized Authentication & De-centralized Authorization (via role-checking with JWTs)
+- API key for SDK usage
 - SDK versioning, documentation and publishing
 - 12 Factor compliance
 
